@@ -41,4 +41,4 @@ def error_forbidden() -> str:
     Return:
       - raise a 403 error
     """
-    abort(401)
+    abort(403)
