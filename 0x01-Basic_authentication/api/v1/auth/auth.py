@@ -20,11 +20,11 @@ class Auth:
             - True if path is not in excluded_paths, else False
         """
         return False
-    
+
     def authorization_header(self, request=None) -> str:
         """Returns the authorization header from a request object"""
         return None
-    
+
     def current_user(self, request=None) -> TypeVar('User'):
         """Returns a User instance from information from a request object"""
         return None
