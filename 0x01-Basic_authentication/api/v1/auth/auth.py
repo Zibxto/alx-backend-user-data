@@ -39,7 +39,7 @@ class Auth:
             return None
         else:
             return request.headers.get('Authorization')
-        
+
     def current_user(self, request=None) -> TypeVar('User'):
         """Returns a User instance from information from a request object"""
         return None
